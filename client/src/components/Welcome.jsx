@@ -5,7 +5,7 @@ export default function Welcome () {
             <h2>Hello,</h2>
             <h2>and welcome</h2>
             <h2>to the</h2>
-            <h1>DNX</h1>
+            <h1>DXN</h1>
         </>
     )
 
