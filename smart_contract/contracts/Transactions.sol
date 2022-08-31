@@ -15,7 +15,7 @@ contract Transactions {
         string message;
         uint256 timestamp;
 
-    };
+    }
 
     Transaction[] transactions;
 

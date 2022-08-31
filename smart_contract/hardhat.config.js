@@ -1,6 +1,16 @@
-require("@nomicfoundation/hardhat-toolbox");
+require('@nomiclabs/hardhat-waffle');
 
-/** @type import('hardhat/config').HardhatUserConfig */
+dotenv = require('dotenv');
+dotenv.config();
+const { DAPP_URL, PRIVATE_KEY } = process.env;
+
 module.exports = {
-  solidity: "0.8.9",
-};
+  solidity: '0.8.0',
+  networks: {
+    hardhat:{ },
+    goerli: {
+      url: DAPP_URL,
+      accounts: [ PRIVATE_KEY ]
+    }
+  }
+}
