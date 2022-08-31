@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/NikolaKostadinov/dxn/issues"
   },
-  "homepage": "https://github.com/NikolaKostadinov/dxn#readme"
+  "homepage": "https://github.com/NikolaKostadinov/dxn#readme",
+  "dependencies": {
+    "hardhat": "^2.10.2"
+  }
 }
